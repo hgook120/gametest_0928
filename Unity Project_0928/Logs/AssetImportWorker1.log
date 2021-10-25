@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'zh' Physical Memory: 3999 MB
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 3999 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Hayden/Documents/unity_test/gametest_0928/Unity Project_0928
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52062
+64935
 Successfully changed project path to: C:/Users/Hayden/Documents/unity_test/gametest_0928/Unity Project_0928
 C:/Users/Hayden/Documents/unity_test/gametest_0928/Unity Project_0928
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 2040.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 486.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,1125 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012564 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 390.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9722ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2176ms)
+			LoadAssemblies (263ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (767ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (940ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (391ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.037926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 394.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6313ms)
+		BeginReloadAssembly (691ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (5297ms)
+			LoadAssemblies (668ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1625ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (255ms)
+			SetupLoadedEditorAssemblies (2095ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (394ms)
+				BeforeProcessingInitializeOnLoad (431ms)
+				ProcessInitializeOnLoadAttributes (1014ms)
+				ProcessInitializeOnLoadMethodAttributes (200ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.9 MB.
+System memory in use after: 122.1 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3319.
+Total: 25.631600 ms (FindLiveObjects: 1.216700 ms CreateObjectMapping: 0.569700 ms MarkObjects: 23.664800 ms  DeleteObjects: 0.175400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2DGamekit/Art/Sprites/Utilities/BlankSprite.png
+  artifactKey: Guid(f7b6513722649314d945ddac9e52b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Utilities/BlankSprite.png using Guid(f7b6513722649314d945ddac9e52b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24d227b27dcd6e377f956aa3687ffb4') in 0.526144 seconds 
+  Import took 0.550647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000775 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Utilities/BlankNormal.png
+  artifactKey: Guid(48e830063f6751148b2a09a61aebd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Utilities/BlankNormal.png using Guid(48e830063f6751148b2a09a61aebd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b365e0265c003afae8e6388d6a41a7') in 0.084105 seconds 
+  Import took 0.105937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.604287 seconds.
+  path: Assets/2DGamekit/Scenes/test_01.unity
+  artifactKey: Guid(1d0879f8a1fb4c1449d7f950f7e19177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/test_01.unity using Guid(1d0879f8a1fb4c1449d7f950f7e19177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf7472484e318ec996e1d005eeb92e') in 0.063804 seconds 
+  Import took 0.083784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.992594 seconds.
+  path: Assets/2DGamekit/Scenes/Start.unity
+  artifactKey: Guid(57df1e417250bc247976c2c0dc088efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Start.unity using Guid(57df1e417250bc247976c2c0dc088efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69d1a1dbb5ee394d1fa3014e2d41548') in 0.036552 seconds 
+  Import took 0.062542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.432085 seconds.
+  path: Assets/2DGamekit/Scenes/Zone1.unity
+  artifactKey: Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Zone1.unity using Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8d875f82726615edba8df2322e2207') in 0.039041 seconds 
+  Import took 0.058785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.194038 seconds.
+  path: Assets/2DGamekit/Scenes/Zone2.unity
+  artifactKey: Guid(5436c67e9267f17458b31fcdc20cd20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Zone2.unity using Guid(5436c67e9267f17458b31fcdc20cd20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f506e6788458ff0e511b6c1046178a8') in 0.048601 seconds 
+  Import took 0.069579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.172070 seconds.
+  path: Assets/2DGamekit/Scenes/Utilities
+  artifactKey: Guid(d2be6fdf7ef4dc8488689e46d83c752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Utilities using Guid(d2be6fdf7ef4dc8488689e46d83c752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd885d7247e30cc20b3c08704011c572') in 0.036921 seconds 
+  Import took 0.058356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.416909 seconds.
+  path: Assets/2DGamekit/Scenes/Utilities/_TemplateScene.unity
+  artifactKey: Guid(a47a94a9b3a10394ebf53e953f6fc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Utilities/_TemplateScene.unity using Guid(a47a94a9b3a10394ebf53e953f6fc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59888d650b27b5dd1670282930251d4a') in 0.049689 seconds 
+  Import took 0.072043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.640030 seconds.
+  path: Assets/2DGamekit/Art/Materials/Interactables/RockDust01.mat
+  artifactKey: Guid(489d56aef57efbd4cacbd837483a3b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Interactables/RockDust01.mat using Guid(489d56aef57efbd4cacbd837483a3b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c0b114e432131e3fc274cf2ed15903') in 0.402976 seconds 
+  Import took 0.428413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.731872 seconds.
+  path: Assets/2DGamekit/Art/Materials/Interactables/RockChunks.mat
+  artifactKey: Guid(d106e46bf186edf4c8aa853d821fead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Interactables/RockChunks.mat using Guid(d106e46bf186edf4c8aa853d821fead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8029614bb57287213088db52eb77d78e') in 0.111001 seconds 
+  Import took 0.133403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1843.378696 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/BGRock01.asset
+  artifactKey: Guid(5c85071a27a01c84a896205a0b852779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/BGRock01.asset using Guid(5c85071a27a01c84a896205a0b852779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd334ed794fd4d1fedf08b2bcd8269042') in 0.287467 seconds 
+  Import took 0.394316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_3.asset
+  artifactKey: Guid(4a4efad2d90121745960f004f0712710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_3.asset using Guid(4a4efad2d90121745960f004f0712710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f45d883a9e022fed485d3b9386ebbd5') in 0.126174 seconds 
+  Import took 0.143885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000792 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_0.asset
+  artifactKey: Guid(503b7bd1863553e4e874ca06e3e375be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_0.asset using Guid(503b7bd1863553e4e874ca06e3e375be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add08a6503e624bc71f4e5a13d3bce1b') in 0.093361 seconds 
+  Import took 0.119088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_1.asset
+  artifactKey: Guid(68f2bc15969f47c488b98ec2c1d5c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_1.asset using Guid(68f2bc15969f47c488b98ec2c1d5c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379ac79b1850043a58ea311da4cbe49f') in 0.072409 seconds 
+  Import took 0.094405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001363 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_2.asset
+  artifactKey: Guid(bdf0958702f23f44387263e0c9d5affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_2.asset using Guid(bdf0958702f23f44387263e0c9d5affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877b3a8ab2513b622652bf8a249ce754') in 0.063285 seconds 
+  Import took 0.082120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.159260 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolJump.ogg
+  artifactKey: Guid(b1db6b09fbe3492468d14d87760f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolJump.ogg using Guid(b1db6b09fbe3492468d14d87760f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679c9e113ba1365be7c87af432bce3cb') in 0.540935 seconds 
+  Import took 0.559675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolSplash01.ogg
+  artifactKey: Guid(8be2025e3343aed4d9f0df01c1285ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolSplash01.ogg using Guid(8be2025e3343aed4d9f0df01c1285ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d5e8d8cb8a3551ed35068b823a8802') in 0.085633 seconds 
+  Import took 0.110107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001119 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolSplash02.ogg
+  artifactKey: Guid(a1afaeb6a19ef41b4991c2c39494347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolSplash02.ogg using Guid(a1afaeb6a19ef41b4991c2c39494347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0cf69d5e238e7b127a97c981bfde55') in 0.086055 seconds 
+  Import took 0.105341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001196 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolLoop.ogg
+  artifactKey: Guid(3c9a4144f5db2c144a020c42598b4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolLoop.ogg using Guid(3c9a4144f5db2c144a020c42598b4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c5b0fcff2d42e26afd29fb1dc02a4d') in 0.087867 seconds 
+  Import took 0.105884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/2DGamekit/Audio/FX/Shield.asset
+  artifactKey: Guid(b22c8b6cde1e19245b7e8c076df5e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/FX/Shield.asset using Guid(b22c8b6cde1e19245b7e8c076df5e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88b0f85b6a2272614484e5d7d555ed6') in 0.053150 seconds 
+  Import took 0.071508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/2DGamekit/Audio/Environment/EnvironmentalAmbiance.ogg
+  artifactKey: Guid(3a9ba69f03694d44a9968f5b7c4abb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/EnvironmentalAmbiance.ogg using Guid(3a9ba69f03694d44a9968f5b7c4abb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dee54daaba8d018918d4628fb49f0b7') in 0.094081 seconds 
+  Import took 0.111004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.382598 seconds.
+  path: Assets/2DGamekit/Art/Materials/Enemies/EnemyBits.mat
+  artifactKey: Guid(088f6c36a29f5de4bbe5ed8ca5e18186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Enemies/EnemyBits.mat using Guid(088f6c36a29f5de4bbe5ed8ca5e18186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cfb138dd31ecb7138f40049dc40deb') in 0.496895 seconds 
+  Import took 0.515988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/2DGamekit/Art/Materials/Enemies/GunnerDamageTrail.mat
+  artifactKey: Guid(ceacbb350e5610448be0924e5f0f1cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Enemies/GunnerDamageTrail.mat using Guid(ceacbb350e5610448be0924e5f0f1cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7465d775f950360c5869b9f3cfa1a18') in 0.139108 seconds 
+  Import took 0.156471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/2DGamekit/Art/Materials/Enemies/GunnerBeamEffect.mat
+  artifactKey: Guid(dbfb059e3e36edf4294f9cff03bb0363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Enemies/GunnerBeamEffect.mat using Guid(dbfb059e3e36edf4294f9cff03bb0363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592748ef1cc70bfd0ff3dea2b027e1f6') in 0.155879 seconds 
+  Import took 0.174387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/2DGamekit/Art/Materials/Enemies/GunnerProjectile.mat
+  artifactKey: Guid(0ed92797faa6a6f4292757fca41bb8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Enemies/GunnerProjectile.mat using Guid(0ed92797faa6a6f4292757fca41bb8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dd970ea5cee43588042ed67ee9154b') in 0.095617 seconds 
+  Import took 0.114761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/2DGamekit/Art/Materials/Enemies/GunnerBeamEffect2.mat
+  artifactKey: Guid(5e6d86c7f9ec609449c933ab811eb779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Enemies/GunnerBeamEffect2.mat using Guid(5e6d86c7f9ec609449c933ab811eb779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304369d45221e1f332860d4781ccf5f2') in 0.107966 seconds 
+  Import took 0.130112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.478807 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/EllenAtlas.spriteatlas
+  artifactKey: Guid(f9e9d1b8136b75b47a865e43f38ab159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/EllenAtlas.spriteatlas using Guid(f9e9d1b8136b75b47a865e43f38ab159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab40b9d6908dd5d48c890e2659b56e3') in 0.061487 seconds 
+  Import took 0.079541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/EllenCutsceneAtlas.spriteatlas
+  artifactKey: Guid(86edb2edc926cbc468998cd95e71e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/EllenCutsceneAtlas.spriteatlas using Guid(86edb2edc926cbc468998cd95e71e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3103870dc43d65e049c64e47dc0004e') in 0.050529 seconds 
+  Import took 0.069324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.649856 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/ChomperAtlas.spriteatlas
+  artifactKey: Guid(c1873c80b805c3741ba3b5509e88ad88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/ChomperAtlas.spriteatlas using Guid(c1873c80b805c3741ba3b5509e88ad88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3f866cb80f844bebc5b59d654589db') in 0.052332 seconds 
+  Import took 0.077823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/SpitterAtlas.spriteatlas
+  artifactKey: Guid(c8d25f9f5c0796047a164895d5d5120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/SpitterAtlas.spriteatlas using Guid(c8d25f9f5c0796047a164895d5d5120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c683a1fd7c2c3f11c2909ddd70d491ca') in 0.058410 seconds 
+  Import took 0.084509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316370 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0000.png
+  artifactKey: Guid(3abf1705bc9d76244ad760412db78a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0000.png using Guid(3abf1705bc9d76244ad760412db78a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bcad397b55b022aa52c32a35472e9c') in 0.084757 seconds 
+  Import took 0.101205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0004.png
+  artifactKey: Guid(7a0de91dea9f59140bb693004bf0b0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0004.png using Guid(7a0de91dea9f59140bb693004bf0b0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee70e053f727bdf8763003fa593d2d8') in 0.080782 seconds 
+  Import took 0.099682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004797 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0002.png
+  artifactKey: Guid(f16737ca9f1dc29448765a816d0a1b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0002.png using Guid(f16737ca9f1dc29448765a816d0a1b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b013b4bbf8a2f88e0125777675495ee3') in 0.123481 seconds 
+  Import took 0.144720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000866 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0006.png
+  artifactKey: Guid(7c8bdf6129a84e141a690926a43cb384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0006.png using Guid(7c8bdf6129a84e141a690926a43cb384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adea8c61c7236a01a69704ad6ba1c8cf') in 0.095338 seconds 
+  Import took 0.112743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001162 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0008.png
+  artifactKey: Guid(2a8146b76a8332e46b9c00f3cb2960e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Key/KeySpin0008.png using Guid(2a8146b76a8332e46b9c00f3cb2960e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ce6f3649a1ff01303cebaaa271da38') in 0.099873 seconds 
+  Import took 0.120236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_04.png
+  artifactKey: Guid(6831d07b37de95843ad379350a65e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_04.png using Guid(6831d07b37de95843ad379350a65e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3cdd9cf54cfa4f01b535b3b228fb68') in 0.109312 seconds 
+  Import took 0.129397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_03.png
+  artifactKey: Guid(53ee494c31ac4ee42bba73b45510d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_03.png using Guid(53ee494c31ac4ee42bba73b45510d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b6fd6d7433e2361b9a832b1d58c4f8') in 0.107397 seconds 
+  Import took 0.129576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000770 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_01.png
+  artifactKey: Guid(ccd594d3890209545995e84a020dca5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_01.png using Guid(ccd594d3890209545995e84a020dca5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4a17a4d22d72cbf49f10a60aacadbc') in 0.132564 seconds 
+  Import took 0.153414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000987 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_00.png
+  artifactKey: Guid(05be6b0c12ae3ab4dbdcec67cb31003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_00.png using Guid(05be6b0c12ae3ab4dbdcec67cb31003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c7002afbb355faf78969acd36c6684') in 0.108660 seconds 
+  Import took 0.128094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_02.png
+  artifactKey: Guid(0b3689288fff9444fa7922e39d98a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Teleporter/Teleporter_02.png using Guid(0b3689288fff9444fa7922e39d98a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bd494624f943407da70869877834fe') in 0.110618 seconds 
+  Import took 0.130016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.091876 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetAlienRules.asset
+  artifactKey: Guid(1032823b40fd7ef4ea6f06b3e6c5c860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetAlienRules.asset using Guid(1032823b40fd7ef4ea6f06b3e6c5c860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941ee3583bee1ecaec77de6978c23cef') in 0.035726 seconds 
+  Import took 0.054630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000745 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetRockWaterBlockers.prefab
+  artifactKey: Guid(3ae57766a9addd249a15631321e5e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetRockWaterBlockers.prefab using Guid(3ae57766a9addd249a15631321e5e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a7a978da2af384695521bdbdca21b9') in 0.332588 seconds 
+  Import took 0.348905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab
+  artifactKey: Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab using Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84958ec992d7fb8d393724aaea91e3fc') in 1.250866 seconds 
+  Import took 1.293201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetRockRules.asset
+  artifactKey: Guid(c0a72b2f2922a4241ba1735d8082c260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetRockRules.asset using Guid(c0a72b2f2922a4241ba1735d8082c260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09950aabdb6a6277bb7137a68240ddb2') in 0.046879 seconds 
+  Import took 0.063316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220721 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_10.asset
+  artifactKey: Guid(ab86d6ce72c1ced44a101133b6cddf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_10.asset using Guid(ab86d6ce72c1ced44a101133b6cddf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e831541a7d19f44c0f6596b930c436ff') in 0.224457 seconds 
+  Import took 0.252698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_15.asset
+  artifactKey: Guid(5b3a9e03b4c53574ab1e44df854b0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_15.asset using Guid(5b3a9e03b4c53574ab1e44df854b0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31acacf58e48eff7f6dbeef943d899a5') in 0.256785 seconds 
+  Import took 0.286371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_14.asset
+  artifactKey: Guid(35fc839f18bc4e1498a1544d61a4d72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_14.asset using Guid(35fc839f18bc4e1498a1544d61a4d72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4cb8c0bf190eeebef2b091c74cad39') in 0.213403 seconds 
+  Import took 0.246018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_20.asset
+  artifactKey: Guid(c6b71b8495781d642842e3d43c3c6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_20.asset using Guid(c6b71b8495781d642842e3d43c3c6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665e8b321a7283afb3048c10e935299a') in 0.235374 seconds 
+  Import took 0.262119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_16.asset
+  artifactKey: Guid(ab258702b95954348a4a22c8f2f8f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_16.asset using Guid(ab258702b95954348a4a22c8f2f8f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae69bb63633e2b42dda3bf9d236feb03') in 0.232939 seconds 
+  Import took 0.259546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_13.asset
+  artifactKey: Guid(a0e230e447f10024886f228ed528296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_13.asset using Guid(a0e230e447f10024886f228ed528296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be55d29d80661609d72204941c98c62') in 0.247007 seconds 
+  Import took 0.276102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_17.asset
+  artifactKey: Guid(de3c42ed1289c3142a7836982aa6b6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_17.asset using Guid(de3c42ed1289c3142a7836982aa6b6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8415cf7009f7ab384cdbdb3ba0c3afed') in 0.212580 seconds 
+  Import took 0.242374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000917 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_12.asset
+  artifactKey: Guid(3d6d59f4a600cf3418ef2c69cbaf4e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_12.asset using Guid(3d6d59f4a600cf3418ef2c69cbaf4e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7245aca290a02e850a6d1c6c037c60') in 0.280898 seconds 
+  Import took 0.312949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_11.asset
+  artifactKey: Guid(882591387c3d3214eb413c277a92ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesAlien/Tileset_Alien_11.asset using Guid(882591387c3d3214eb413c277a92ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bffc9d2d74f66b3ede0e408381dd27') in 0.268093 seconds 
+  Import took 0.299678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.588198 seconds.
+  path: Assets/2DGamekit/Art/Materials/Environment/Stones.mat
+  artifactKey: Guid(bcb80a583a572ac48b01610a0ae890be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Environment/Stones.mat using Guid(bcb80a583a572ac48b01610a0ae890be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7910dda889fa5561bb3d5797fa9a8a8a') in 0.176795 seconds 
+  Import took 0.196589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/2DGamekit/Art/Materials/Environment/TilemapRock.mat
+  artifactKey: Guid(b0a169f1165a6be4f8facfe051710f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Environment/TilemapRock.mat using Guid(b0a169f1165a6be4f8facfe051710f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5c94420a722ba9975111651bb140ea') in 0.670361 seconds 
+  Import took 0.686721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000862 seconds.
+  path: Assets/2DGamekit/Art/Materials/Environment/TilemapAlien.mat
+  artifactKey: Guid(8ef1cb25bc81b544a8349f6e1787fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Environment/TilemapAlien.mat using Guid(8ef1cb25bc81b544a8349f6e1787fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9e7c3113731be89ad93376d281b6e7') in 0.145509 seconds 
+  Import took 0.163408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000822 seconds.
+  path: Assets/2DGamekit/Art/Materials/Environment/TilemapRockBG.mat
+  artifactKey: Guid(5fa67ec605523b542b6a3ad3479021db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Environment/TilemapRockBG.mat using Guid(5fa67ec605523b542b6a3ad3479021db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5789b0594c342e9092e18a5ad0f8fa7') in 0.111559 seconds 
+  Import took 0.129355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/2DGamekit/Art/Materials/Environment/TilemapAlienBG.mat
+  artifactKey: Guid(9eac55953e4cb874fa6a4235da0db771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Environment/TilemapAlienBG.mat using Guid(9eac55953e4cb874fa6a4235da0db771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3290dc7305784ffd59e66ba85a8f19aa') in 0.109466 seconds 
+  Import took 0.127237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001395 seconds.
+  path: Assets/2DGamekit/Art/Materials/Environment/WallTileEnd.mat
+  artifactKey: Guid(8f6edd733af01e142800927bda1b76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/Environment/WallTileEnd.mat using Guid(8f6edd733af01e142800927bda1b76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca01535e3ff2145e843735722bcb7d14') in 0.119165 seconds 
+  Import took 0.138701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.834749 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_4.asset
+  artifactKey: Guid(c00c9ba6667b7e540af915b83ee10a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_4.asset using Guid(c00c9ba6667b7e540af915b83ee10a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d47f5c99eebf1f3909f3d17d1ec4fb9') in 0.062166 seconds 
+  Import took 0.084599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_5.asset
+  artifactKey: Guid(43321435e350aa64a83f84efe0cb13ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_5.asset using Guid(43321435e350aa64a83f84efe0cb13ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e67262989a013b0dd0f9500b6283d8') in 0.070579 seconds 
+  Import took 0.095245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001326 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_6.asset
+  artifactKey: Guid(8130762b96852de4ab52e85de4d3d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_6.asset using Guid(8130762b96852de4ab52e85de4d3d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4efe87aa8440be1ec7a4832f519416') in 0.076108 seconds 
+  Import took 0.103080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_7.asset
+  artifactKey: Guid(116d38b6febc5b542be322865683f2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_7.asset using Guid(116d38b6febc5b542be322865683f2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46331d07ac3e8c702b04b0d637b87e37') in 0.103872 seconds 
+  Import took 0.120892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934535 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_8.asset
+  artifactKey: Guid(82a4b362ae4d504478bec4b85b86e079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_8.asset using Guid(82a4b362ae4d504478bec4b85b86e079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46e1d295b2350fa620d5ec9e04bcde0') in 0.072593 seconds 
+  Import took 0.090849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_11.asset
+  artifactKey: Guid(ab3a95fb64b64b940858a7f54002798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_11.asset using Guid(ab3a95fb64b64b940858a7f54002798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9c8c252769d5b73dfbdda867643066') in 0.067093 seconds 
+  Import took 0.084236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_13.asset
+  artifactKey: Guid(ffa28b20c59274c45be0802a7876b515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_13.asset using Guid(ffa28b20c59274c45be0802a7876b515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325cbb91ffb046574422026ba89728c1') in 0.077117 seconds 
+  Import took 0.099782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001347 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_10.asset
+  artifactKey: Guid(0c2a556fc549c624ead7d72371d10fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_10.asset using Guid(0c2a556fc549c624ead7d72371d10fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ef915ad65c8fbafd55169cc82b9896') in 0.074127 seconds 
+  Import took 0.095831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001475 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_15.asset
+  artifactKey: Guid(5f6fc6365c30f1c43820b0cfe57e2874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_15.asset using Guid(5f6fc6365c30f1c43820b0cfe57e2874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509a23fa50bad5f44a98013bc15346e5') in 0.059519 seconds 
+  Import took 0.079909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001186 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_14.asset
+  artifactKey: Guid(4d57bac99614118428968217c8ad1be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_14.asset using Guid(4d57bac99614118428968217c8ad1be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a197c94b28f62dece18ec6c2f869b213') in 0.069037 seconds 
+  Import took 0.084745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_21.asset
+  artifactKey: Guid(2c3248d90716ac94a97bb35153edeef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_21.asset using Guid(2c3248d90716ac94a97bb35153edeef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9d7ea6d1e83f439f8744e78710b381') in 0.078574 seconds 
+  Import took 0.100049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_19.asset
+  artifactKey: Guid(fc6df10347b3b3c4a8e39b1ef99c91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_19.asset using Guid(fc6df10347b3b3c4a8e39b1ef99c91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba9928b265db70c52f006c98980f7e7') in 0.096531 seconds 
+  Import took 0.115948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000997 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_16.asset
+  artifactKey: Guid(b0f398b17a4fd7842be5803f9ad70a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_16.asset using Guid(b0f398b17a4fd7842be5803f9ad70a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5772c1956e0ac11addd960ee810f7770') in 0.076927 seconds 
+  Import took 0.098198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001116 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_18.asset
+  artifactKey: Guid(bd619597fae15d34fa3030b3ae01e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_18.asset using Guid(bd619597fae15d34fa3030b3ae01e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52a1b754ead474a75c9fd71b8f8f041') in 0.070380 seconds 
+  Import took 0.090771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001088 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_17.asset
+  artifactKey: Guid(84bc79e3f678f3a4f8517f4ef3b6ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_17.asset using Guid(84bc79e3f678f3a4f8517f4ef3b6ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe599a437e5eed07719ab24ea1ceba') in 0.075544 seconds 
+  Import took 0.101386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001066 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_9.asset
+  artifactKey: Guid(b44f30e34aec16444bfd687f2e094aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_9.asset using Guid(b44f30e34aec16444bfd687f2e094aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bf22ac27a22e1fb0aabbda7f1054a7') in 0.069557 seconds 
+  Import took 0.092347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000860 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_12.asset
+  artifactKey: Guid(cbc8f5cca77857a49b1b5d59ab858059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/FloatingRocks_12.asset using Guid(cbc8f5cca77857a49b1b5d59ab858059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9e20e9da7f95ea510a3c41ef6bbbca') in 0.080008 seconds 
+  Import took 0.098654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341296 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Alien.png
+  artifactKey: Guid(05f0bf62dcfb65a4ebd0402151fc3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Alien.png using Guid(05f0bf62dcfb65a4ebd0402151fc3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a2ed3cf6613b4833babca981b894b2') in 1.342288 seconds 
+  Import took 1.414367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.214284 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Palette_01.prefab
+  artifactKey: Guid(a839b1fee2ded4f488dd2b6dae9acdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Palette_01.prefab using Guid(a839b1fee2ded4f488dd2b6dae9acdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0342ca49037fa1f456b94ea5993c74a') in 0.774658 seconds 
+  Import took 0.816990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.418603 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling0.asset
+  artifactKey: Guid(d1b01fbd8bd012e40b31df4efaf782c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling0.asset using Guid(d1b01fbd8bd012e40b31df4efaf782c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace3ddbe65e0d86164b57825fe38546') in 0.381876 seconds 
+  Import took 0.428614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002318 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling3.asset
+  artifactKey: Guid(9bd67f0c27b4b1346ab60608c0811362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling3.asset using Guid(9bd67f0c27b4b1346ab60608c0811362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99026da5ad024f41549800b605e1cfa') in 0.460573 seconds 
+  Import took 0.505197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001041 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerOuterLeft.asset
+  artifactKey: Guid(e2558e852e4a653498d1f0ecdd6aff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerOuterLeft.asset using Guid(e2558e852e4a653498d1f0ecdd6aff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814852eda1df10b96e80cb076d01e05d') in 0.513248 seconds 
+  Import took 0.556958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001071 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling5.asset
+  artifactKey: Guid(e03f7f8cf6e74ab4387571996a429066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling5.asset using Guid(e03f7f8cf6e74ab4387571996a429066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1538f2a0e65b0c930cdd6a214e1c4294') in 0.412878 seconds 
+  Import took 0.467382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000875 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassSingleRight.asset
+  artifactKey: Guid(2d131ab25bbbe82499356656fcc35bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassSingleRight.asset using Guid(2d131ab25bbbe82499356656fcc35bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3b403eca7978501eb06d8ee19bf015') in 0.299073 seconds 
+  Import took 0.333572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001643 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling4.asset
+  artifactKey: Guid(c030d962747a2294d9d67f0fd2b62a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling4.asset using Guid(c030d962747a2294d9d67f0fd2b62a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a05922006caa0b06417602d61796575') in 0.286695 seconds 
+  Import took 0.335336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassRight.asset
+  artifactKey: Guid(34caf1131c5849d4cadbc3ed4a6b71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassRight.asset using Guid(34caf1131c5849d4cadbc3ed4a6b71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62dc7b1f90aab08e2de38edbce7c6e3') in 0.285372 seconds 
+  Import took 0.320981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling6.asset
+  artifactKey: Guid(705b39f79fce65b43aed939e9247b332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling6.asset using Guid(705b39f79fce65b43aed939e9247b332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10b2c61febcc0659e8131c4e94ab862') in 0.348629 seconds 
+  Import took 0.384698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling1.asset
+  artifactKey: Guid(ac98979df90d1ba4cbbe14451296b35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling1.asset using Guid(ac98979df90d1ba4cbbe14451296b35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a227be45113b6a53795ac3c4aec8a9') in 0.330135 seconds 
+  Import took 0.364085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling2.asset
+  artifactKey: Guid(f16c1128bef643345ae7943bc82ea19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Ceiling2.asset using Guid(f16c1128bef643345ae7943bc82ea19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6835929912553473eab53e2b6e88be') in 0.307247 seconds 
+  Import took 0.340361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill0.asset
+  artifactKey: Guid(e02163a434ffa964e92bf60db6622476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill0.asset using Guid(e02163a434ffa964e92bf60db6622476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbd63b1e3394bb9fd44c12185d5dd7d') in 0.440090 seconds 
+  Import took 0.483920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002181 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill4.asset
+  artifactKey: Guid(6bf1e6348cd6aad46bce192eeebc3802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill4.asset using Guid(6bf1e6348cd6aad46bce192eeebc3802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcc7e49ca1f6f6e59451910aac8bf9c') in 0.320790 seconds 
+  Import took 0.365331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000981 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill2.asset
+  artifactKey: Guid(f3f0c081c0631cf4e8bfa2a37c80bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill2.asset using Guid(f3f0c081c0631cf4e8bfa2a37c80bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66e0e6f8e5ae292ba2e997d60acdd84') in 0.305984 seconds 
+  Import took 0.351040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill6.asset
+  artifactKey: Guid(12c9e763a5c74cb439e81b4bcfa195e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill6.asset using Guid(12c9e763a5c74cb439e81b4bcfa195e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b5dff1f82c3d59c12372618a62b588') in 0.421904 seconds 
+  Import took 0.459381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill3.asset
+  artifactKey: Guid(9f64de65b4dd02c499274220009d4cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill3.asset using Guid(9f64de65b4dd02c499274220009d4cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105015e55776b49a1eff3cdd2f217581') in 0.296436 seconds 
+  Import took 0.365316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001423 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill1.asset
+  artifactKey: Guid(836c183653589924eadee2cc26360f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill1.asset using Guid(836c183653589924eadee2cc26360f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bedb0488c9b94fbdeeff6834effbd5f') in 0.281754 seconds 
+  Import took 0.314103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerOuterRight.asset
+  artifactKey: Guid(0e583e81aec7e2e46940b88a5db9e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerOuterRight.asset using Guid(0e583e81aec7e2e46940b88a5db9e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a146716b704d48e9bf95ec31a60200') in 0.363289 seconds 
+  Import took 0.400579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill5.asset
+  artifactKey: Guid(23419b314755d4449a8ec8a96315ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Fill5.asset using Guid(23419b314755d4449a8ec8a96315ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da09f90fc07fa939a3c3e2b7158f6847') in 0.298429 seconds 
+  Import took 0.343163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000876 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassSingleLeft.asset
+  artifactKey: Guid(a95a1cfbaa4dc3a4399beed33b9ceddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassSingleLeft.asset using Guid(a95a1cfbaa4dc3a4399beed33b9ceddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a38a58f50058ddcf520c434b24bef10') in 0.298409 seconds 
+  Import took 0.332498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassLeft.asset
+  artifactKey: Guid(462de8f800fe1974cbd2d58be9beb2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_CeilingCornerGrassLeft.asset using Guid(462de8f800fe1974cbd2d58be9beb2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3326cd3491deda26116a0f2416370f95') in 0.315606 seconds 
+  Import took 0.350449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.652891 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Floor4.asset
+  artifactKey: Guid(e53f05c773bb31e44b59d60fbb2248a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Floor4.asset using Guid(e53f05c773bb31e44b59d60fbb2248a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8552763b17c45d144ad4fd6432f9d1') in 0.311153 seconds 
+  Import took 0.355808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Floor5.asset
+  artifactKey: Guid(7f5df171770659845b4b5f15a0207659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Floor5.asset using Guid(7f5df171770659845b4b5f15a0207659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf33ebf5f942166a7df479f691c04f4') in 0.468538 seconds 
+  Import took 0.515659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001266 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorSingleBlockLeft.asset
+  artifactKey: Guid(d461454c218465f45b071cd369f4e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorSingleBlockLeft.asset using Guid(d461454c218465f45b071cd369f4e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90050274c6b05407705cf449da3dbce') in 0.475327 seconds 
+  Import took 0.524181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007282 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft5.asset
+  artifactKey: Guid(73c99c1ffbd01784dab798a54f5b2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft5.asset using Guid(73c99c1ffbd01784dab798a54f5b2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1885158f99821cb2769704d06b8c835') in 0.478449 seconds 
+  Import took 0.518612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeftCeilingCorner1.asset
+  artifactKey: Guid(ecd176ca42117a64fa62d4df7e1f2bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeftCeilingCorner1.asset using Guid(ecd176ca42117a64fa62d4df7e1f2bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267d653df62dee63a4a88414648429ac') in 0.309510 seconds 
+  Import took 0.345660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001067 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumnBottom.asset
+  artifactKey: Guid(d19ef055984fbf344809297fe7835bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumnBottom.asset using Guid(d19ef055984fbf344809297fe7835bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854b97bf9336a0931339e56b48eabb49') in 0.300945 seconds 
+  Import took 0.334442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001390 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft2.asset
+  artifactKey: Guid(178adb976c4e42749be33127e74e3bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft2.asset using Guid(178adb976c4e42749be33127e74e3bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4edb2703f66bee570787bddb1321454') in 0.320003 seconds 
+  Import took 0.392917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallCornerRightGrass.asset
+  artifactKey: Guid(a034be6fcb5b9604bba5251d27f9596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallCornerRightGrass.asset using Guid(a034be6fcb5b9604bba5251d27f9596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9db76643571231edb6b039134ac739e') in 0.264167 seconds 
+  Import took 0.324132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000896 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Floor6.asset
+  artifactKey: Guid(1bd3b17cbb6aec0428a16a53ecba305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_Floor6.asset using Guid(1bd3b17cbb6aec0428a16a53ecba305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffbda574f7d0305af91164d89a721ba') in 0.268713 seconds 
+  Import took 0.299491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumnCentreCeiling.asset
+  artifactKey: Guid(2e98a1febfe05fd45be08bef1ff2104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumnCentreCeiling.asset using Guid(2e98a1febfe05fd45be08bef1ff2104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5535982cec0d53914adfdcc617e92309') in 0.282240 seconds 
+  Import took 0.318396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000861 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleBlockCorner_Right.asset
+  artifactKey: Guid(a41a39e8764e5d9489ef0d4afc82b1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleBlockCorner_Right.asset using Guid(a41a39e8764e5d9489ef0d4afc82b1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c534f7dca824413c0161544c16a414') in 0.290746 seconds 
+  Import took 0.322638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft2.asset
+  artifactKey: Guid(39bdcb5dfcf0a0746a551e1f3e7eab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft2.asset using Guid(39bdcb5dfcf0a0746a551e1f3e7eab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f85237b49e0d0bd497734a412ae5cef') in 0.352418 seconds 
+  Import took 0.388575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000875 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft6.asset
+  artifactKey: Guid(785e07a2042cc1b4dad998b44dea90a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft6.asset using Guid(785e07a2042cc1b4dad998b44dea90a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e247b72957c3f32ae3e0308a3f1f51') in 0.289810 seconds 
+  Import took 0.332360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000999 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleBlockCorner_Left.asset
+  artifactKey: Guid(9b3f800cb09a5834287360f2e793ccd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleBlockCorner_Left.asset using Guid(9b3f800cb09a5834287360f2e793ccd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5060ce3c1ac5fa625251871b174e7507') in 0.393835 seconds 
+  Import took 0.448329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002760 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorSingleBlockRight.asset
+  artifactKey: Guid(667a1b9f96543e54fa4938fed068303a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorSingleBlockRight.asset using Guid(667a1b9f96543e54fa4938fed068303a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a6bac54ddd426384712f73153384a2') in 0.447487 seconds 
+  Import took 0.493062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002105 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft0.asset
+  artifactKey: Guid(6deae1dcc911bea448b4bcb0388ca058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft0.asset using Guid(6deae1dcc911bea448b4bcb0388ca058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed981f6120e712960f5374d642b94df4') in 0.297424 seconds 
+  Import took 0.330238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft3.asset
+  artifactKey: Guid(87e098fba8025d74d95fbe947a5ac448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft3.asset using Guid(87e098fba8025d74d95fbe947a5ac448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a077dc2aa0282f20bd1b1bf9b81c4a01') in 0.267010 seconds 
+  Import took 0.304270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorSingleBlock6.asset
+  artifactKey: Guid(3734fad3264b0ce419ffabcd41d7c351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorSingleBlock6.asset using Guid(3734fad3264b0ce419ffabcd41d7c351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526a869c8624b85e2649745c6b0cd98f') in 0.255864 seconds 
+  Import took 0.290719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumn0.asset
+  artifactKey: Guid(aec8d9803c27b8543aadf4f04514868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumn0.asset using Guid(aec8d9803c27b8543aadf4f04514868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808292719cdc8b0cf7126f4fa35d42f7') in 0.256077 seconds 
+  Import took 0.286277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerRight0.asset
+  artifactKey: Guid(8c104563139d6484e95e1df50f70d0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerRight0.asset using Guid(8c104563139d6484e95e1df50f70d0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba62df1445f704401211f29b8415e9c') in 0.256060 seconds 
+  Import took 0.289010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleBlock.asset
+  artifactKey: Guid(aa1c4ef1e8e1ffb49960a413b7bf7462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleBlock.asset using Guid(aa1c4ef1e8e1ffb49960a413b7bf7462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c820264a46989de4776f5e810e1eea') in 0.293428 seconds 
+  Import took 0.328999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000950 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft3.asset
+  artifactKey: Guid(f3d34c96b95cd1c4f9bdc53e08930423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft3.asset using Guid(f3d34c96b95cd1c4f9bdc53e08930423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80f3b59e465d752c72127f443e1c48f') in 0.283217 seconds 
+  Import took 0.322206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000819 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft1.asset
+  artifactKey: Guid(0161f0987c02e4c469b07044d0cae872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft1.asset using Guid(0161f0987c02e4c469b07044d0cae872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33ad4023721ebf9005c2f17a967d37c') in 0.253088 seconds 
+  Import took 0.283359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001271 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft1.asset
+  artifactKey: Guid(ee802a07c29a88446bc5aa526770c1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft1.asset using Guid(ee802a07c29a88446bc5aa526770c1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0d9c7be88d81377b519b75d12455b1') in 0.260701 seconds 
+  Import took 0.292403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft4.asset
+  artifactKey: Guid(48487ee98fd6a1948af731959ab400d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeft4.asset using Guid(48487ee98fd6a1948af731959ab400d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6a69ca00aaddecaea6cb9941c8451e') in 0.244602 seconds 
+  Import took 0.276828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeftCeilingCorner0.asset
+  artifactKey: Guid(ac56ebdc0656d1c458462cd360658b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_WallLeftCeilingCorner0.asset using Guid(ac56ebdc0656d1c458462cd360658b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a169eb59a894bcb595a39be55dc39bf') in 0.257909 seconds 
+  Import took 0.287093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumnCentreCorners.asset
+  artifactKey: Guid(f1b19f6a090813047beb8fd176359a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumnCentreCorners.asset using Guid(f1b19f6a090813047beb8fd176359a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4486f1e77a70cd6641c76cbc48137c01') in 0.245821 seconds 
+  Import took 0.277607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000905 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft0.asset
+  artifactKey: Guid(8e3712825583fda44b0d0140b9382a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerLeft0.asset using Guid(8e3712825583fda44b0d0140b9382a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0664d861c4e176dc3052c528aaf2e4bd') in 0.285225 seconds 
+  Import took 0.317391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerRight1.asset
+  artifactKey: Guid(0b054c9628e48cf44af861a27524b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_FloorCornerInnerRight1.asset using Guid(0b054c9628e48cf44af861a27524b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b75261222001233c76060dde54a9e4') in 0.317175 seconds 
+  Import took 0.353370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000856 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumn1.asset
+  artifactKey: Guid(a6f236ab8083b8a4ea3e71a18c501fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Rock_SingleColumn1.asset using Guid(a6f236ab8083b8a4ea3e71a18c501fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e798d0afb9afb2e4cb67429a788f1160') in 0.283718 seconds 
+  Import took 0.316947 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
